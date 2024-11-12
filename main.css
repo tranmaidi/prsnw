@@ -7,6 +7,10 @@
     list-style: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -173,7 +177,7 @@ span {
 
 .project-card a {
     font-size: 18px;
-    color: #008080; /* Teal */
+    color: #008080; 
     text-decoration: none;
     border-bottom: 2px solid transparent;
     transition: color 0.3s ease, border-bottom 0.3s ease;
